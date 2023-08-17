@@ -1,0 +1,61 @@
+ul {
+			list-style-type: none;
+			padding-left: 0;
+			margin-left: 20px;
+		}
+
+		li {
+			margin-bottom: 5px;
+			border-left: 1px dashed #ccc;
+			padding-left: 10px;
+		}
+
+		.tag {
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			padding: 5px;
+			margin: 5px 0;
+		}
+		.toggle-button {
+			margin-left: 5px;
+			cursor: pointer;
+			border: none;
+			border-radius: 2px;
+			padding: 3px 15px;
+			color: #ffffff;
+			background-color: #3498db;
+			align-items: center;
+		}
+
+
+		input[type="text"] {
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+			transition: border-color 0.3s ease-in-out;
+			margin: 5px;
+		}
+
+		/* Style for the button */
+		button {
+			padding: 5px 10px;
+			margin: 10px 5px 15px 20px;
+			background-color: #3498db;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+			transition: background-color 0.3s ease-in-out;
+			align-self: flex-start; /* Align the button to the start of the flex container */
+		}
+		button:hover {
+			background-color: #2980b9;
+		}
+
+		/* Style for child tag names */
+		.tag span {
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+			margin-right: 5px;
+		}
